@@ -1,0 +1,33 @@
+.bundle
+db/*.sqlite3*
+db/cstore
+log/
+*.log
+logging.properties*
+/tmp/
+*.swp
+*~
+.DS_Store
+.project
+.sass-cache/
+public/assets
+public/uploads/
+downloads/
+solr/data
+solr/pids
+.ruby-version
+.local/
+Guardfile
+ruby-uuid
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
+
+# Ignore application configuration
+/config/application-*.yml
+
+# Code coverage output
+coverage/
+.foreman
+.idea/
